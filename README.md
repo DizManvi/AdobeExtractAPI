@@ -43,23 +43,22 @@ Observe the code used for extracting Business Details :
 
 Since , the json file of this pdf had the following path:
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/81af10d1-b670-44cf-a295-28a0a00e3ed6)
-![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/bc2485f5-aa06-4fd4-80c1-7b7e42f0e5ef)
+<br>
 and so on...
-
 But on running the same code for a different pdf for example output47.pdf, the following path happened to be there :
+![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/bc2485f5-aa06-4fd4-80c1-7b7e42f0e5ef)
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/39dac827-847c-4ed4-babd-a354c001db10)
+
+Hence, threw exceptions such as :<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/0d240a08-fcbd-4bb2-8b08-f5490c63032d)
 
-Hence, threw exceptions such as :
-![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/3c6195de-ae73-4706-b9db-03df23612756)
-
 Along with it, the API extracted the Customer-Email-ID in the following format :
-![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/daa0d26a-2b5f-49a0-8207-1f5a059e00fb)
-Here, index 2 and index 3 collectively form an email address
-For handling this , wrote the following code :
-![Uploading image.png…]()
-here emailnew = email+M
-But since other pdfs's mail address was extracted normally, for eg.,
+![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/3c6195de-ae73-4706-b9db-03df23612756)<br>
+Here, index 2 and index 3 collectively form an email address.<br>
+For handling this , wrote the following code :<br>
+![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/daa0d26a-2b5f-49a0-8207-1f5a059e00fb)<br>
+Here emailnew = email+M <br>
+But since other pdfs's mail address was extracted normally, for eg., <br>
 "abc123@gmail.com" and not "abc123@gmail.co" , "m". The code threw out of bounds errors.
 
 Apart from this , while running the loop, encodings of a few pdf files couldn't be read and it constantly threw errors of "Codec couldn't be recognised".
