@@ -27,10 +27,10 @@ A file name "merged_table.csv" will be formed which will be containing the extra
 ### Files Description
 
 ##### extracted_tables
-This folder has a json file "structuredData.json" which is the json output of pdf after running code file extracted1.py.
-The subfolders : 
-a) tables : Contains extracted data in the form of png and csv.
-b) extracted_tabes2 : Contains files after ruuning code extracted_2.py
+This folder has a json file "structuredData.json" which is the json output of pdf after running code file extracted1.py.<br>
+The subfolders : <br>
+a) tables : Contains extracted data in the form of png and csv.<br>
+b) extracted_tabes2 : Contains files after rnuning code extracted_2.py<br>
 
 ##### merged_table.csv
 This CSV contains the overall data extracted by running the codes. This is the main file to merge all the extracted data.
