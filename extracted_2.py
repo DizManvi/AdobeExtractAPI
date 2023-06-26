@@ -26,7 +26,7 @@ if os.path.isfile(zip_file):
     os.remove(zip_file)
 
 #input pdf
-input_pdf = "output47.pdf"
+input_pdf = "output1.pdf"
 table_columns = ["Bussiness__Name", "Column2", "Bussiness__Zipcode", "Column4", "Bussiness__Description"]
 table_data = []
 
