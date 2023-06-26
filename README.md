@@ -24,6 +24,17 @@ This could be merged into a single code file instead of having two different fil
 A file name "merged_table.csv" will be formed which will be containing the extraction done by the API.<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/b639f887-5df3-4da2-8079-6e2f4d205449)
 
+### Files Description
+
+##### extracted_tables
+This folder has a json file "structuredData.json" which is the json output of pdf after running code file extracted1.py.
+The subfolders : 
+a) tables : Contains extracted data in the form of png and csv.
+b) extracted_tabes2 : Contains files after ruuning code extracted_2.py
+
+##### merged_table.csv
+This CSV contains the overall data extracted by running the codes. This is the main file to merge all the extracted data.
+
 
 ### Problems faced 
 While programming , test file output1.pdf (from the test files provided) was taken into consideration.
@@ -36,7 +47,7 @@ Tried to implement a loop so that the code itself runs for all the files from th
 
 Tried to search about it but couldn't find any related solutions to this issue.
 
-#### Illustration of problems faced :
+#### Illustrations of problems faced :
 
 Observe the code used for extracting Business Details :<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/c2de8cc7-224f-4298-bd51-1bbb9a089eef)
