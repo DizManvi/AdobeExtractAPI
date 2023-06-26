@@ -42,12 +42,14 @@ Observe the code used for extracting Business Details :<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/c2de8cc7-224f-4298-bd51-1bbb9a089eef)
 
 Since , the json file of this pdf had the following path:<br>
+![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/c3ae23bb-a08e-4391-abe5-04219233bd4e)<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/81af10d1-b670-44cf-a295-28a0a00e3ed6)
 <br>
 and so on...<br>
-But on running the same code for a different pdf for example output47.pdf, the following path happened to be there :<br>
+But on running the same code for a different pdf for example output47.pdf, the following paths happened to be there :<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/bc2485f5-aa06-4fd4-80c1-7b7e42f0e5ef)<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/39dac827-847c-4ed4-babd-a354c001db10)<br>
+and so on...<br>
 
 Hence, threw exceptions such as :<br>
 ![image](https://github.com/DizManvi/AdobeExtractAPI/assets/98814117/0d240a08-fcbd-4bb2-8b08-f5490c63032d)
